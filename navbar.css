@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    min-width: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 20px;
+    font-size: 1.3em;
+}
+
+a { color:  white;
+    text-decoration: none;
+ 
+}
+
+header {
+    background-color: rgba(6, 6, 85, 0.801);
+    height: 80px;
+}
+
+.menu {
+    
+    text-align: center;
+    
+} 
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 0px 30px 0px 0px;
+
+
+}
+.bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: white;
+}
+
+@media (max-width:760px) {
+    .hamburger{
+        display: block;
+    }
+}
