@@ -76,13 +76,13 @@ a {
     .hamburger.ativo .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
-    .navbar {
+    .menu {
         position: fixed;
         left: -100%;
         top: 70px;
         gap: 0;
         border-radius: 0px 0px 15px 15px;
-        background-color: rebeccapurple;
+        background-color: rgb(6, 6, 80);
         text-align: center;
         flex-direction: column;
         width: 100%;
@@ -92,7 +92,7 @@ a {
         margin: 16px 0px;
 
     }
-    .navbar.ativo {
+    .menu.ativo {
         left: 0;
     }
 }
