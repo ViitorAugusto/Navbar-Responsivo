@@ -3,8 +3,7 @@
     padding: 0;
 }
 header {
-    background-color: rgba(6, 6, 85, 0.856);
-    
+    background-color: rgb(6, 6, 80);
 }
 
 li {
@@ -13,6 +12,7 @@ li {
 a {
     text-decoration: none; 
     color: white;
+   
 }
 
 .navbar {
@@ -20,21 +20,36 @@ a {
     min-width: 70px;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 0px 0px 40px;
+    padding: 20px 20px 20px 40px;
 
 }
 .logo {
     font-size: 2em;
     font-weight: bold;
+    
 }
-/*
 .menu {
     display: flex;
     align-items: center;
-    gap: 70px;
-    margin: 20px;
-    font-size: 1.3em;
+    gap: 50px; /* O espaçamentos entre eles */
 }
+
+.link-bar {
+    transition-duration: .5s;
+    font-size: 1.3em;
+    
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    
+
+}
+.link-bar:hover {
+    color: white;
+    background-color: rgba(15, 15, 243, 0.123);
+    box-shadow: 1px 1px 10px white;
+}
+/*
+
 
 a { color:  white;
     text-decoration: none;
