@@ -48,29 +48,9 @@ a {
     background-color: rgba(15, 15, 243, 0.123);
     box-shadow: 1px 1px 10px white;
 }
-/*
-
-
-a { color:  white;
-    text-decoration: none;
- 
-}
-
-header {
-    background-color: rgba(6, 6, 85, 0.856);
-    height: 80px;
-}
-
-.menu {
-    
-    text-align: center;
-    
-} 
-
 .hamburger {
     display: none;
     cursor: pointer;
-    padding: 0px 30px 0px 0px;
 
 
 }
@@ -81,10 +61,43 @@ header {
     border-radius: 2px;
     margin: 5px auto;
     background-color: white;
+    transition: all 0.3s;
 }
-
 @media (max-width:760px) {
     .hamburger{
         display: block;
     }
-} */
+    .hamburger.ativo .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.ativo .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .navbar {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        border-radius: 0px 0px 15px 15px;
+        background-color: rebeccapurple;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+        transition: 0.5s;
+    }
+    .item {
+        margin: 16px 0px;
+
+    }
+    .navbar.ativo {
+        left: 0;
+    }
+}
+
+
+
+
+
