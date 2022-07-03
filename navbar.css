@@ -1,14 +1,33 @@
-* {
+* { font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
+header {
+    background-color: rgba(6, 6, 85, 0.856);
+    
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none; 
+    color: white;
+}
+
 .navbar {
     display: flex;
-    min-width: 100px;
-    align-items: center;
+    min-width: 70px;
     justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 40px;
 
 }
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+/*
 .menu {
     display: flex;
     align-items: center;
@@ -23,7 +42,7 @@ a { color:  white;
 }
 
 header {
-    background-color: rgba(6, 6, 85, 0.801);
+    background-color: rgba(6, 6, 85, 0.856);
     height: 80px;
 }
 
@@ -53,4 +72,4 @@ header {
     .hamburger{
         display: block;
     }
-}
+} */
